@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Stopping the container named 'try-redis' (this takes about 10 seconds)"
+docker stop try-redis
+echo "Done! If the container was started with --rm it should be removed now."
+docker ps

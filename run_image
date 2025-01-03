@@ -1,0 +1,4 @@
+#!/bin/bash
+docker pull trasa/try-redis:latest
+docker run -d --name try-redis --rm -p 4567:4567 trasa/try-redis:latest
+
